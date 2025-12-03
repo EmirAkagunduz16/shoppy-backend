@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "isolatedModules": true,
     "declaration": false,
@@ -19,6 +18,6 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-        "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false
   }
 }
