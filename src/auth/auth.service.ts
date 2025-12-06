@@ -56,4 +56,7 @@ export class AuthService {
       throw new UnauthorizedException('Invalid email or password');
     }
   }
+  verifyToken(jwt: string) {
+    this.jwtService.verify(jwt);
+  }
 }
